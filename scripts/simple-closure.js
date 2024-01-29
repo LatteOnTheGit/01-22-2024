@@ -6,5 +6,6 @@ function makeFunc() {
     return dispName;
 }
 
+// f is a closure(function and environment)
 const f = makeFunc();
 f();
